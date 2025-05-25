@@ -4,7 +4,7 @@ import anatomyImage from '../assets/R.jpeg';
 const AnatomySection = () => (
   <div className="row">
     <div className="col-md-6">
-      <img src={anatomyImage} alt="Anatomy" className="img-fluid rounded mx-auto"/>
+      <img src={anatomyImage} alt="Anatomy" className="img-fluid rounded"/> 
     </div>
     <div className="col-md-6">
       {healthStatus.map(({ id, label, status, color }) => (
