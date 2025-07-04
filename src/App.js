@@ -1,18 +1,20 @@
-import './App.css';
+
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import DashboardMainContent from './components/DashboardMainContent';
-
+import Photo from './photography/Photo';
+import RootLayout from './tour/RootLayout';
 function App() {
   return (
 
 
- <div className="d-flex vh-100 bg-light">
-      <Sidebar />
+ <div>
+  <RootLayout></RootLayout>
+      {/* <Sidebar />
       <div className="flex-grow-1 d-flex flex-column">
         <Header />
         <DashboardMainContent />
-      </div>
+      </div> */}
     </div>
 
   );
