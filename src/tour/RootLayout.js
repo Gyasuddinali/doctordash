@@ -632,7 +632,7 @@
 
 
 import { useEffect, useState } from "react";
-import "./root.css";
+import "./rootlay.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import './HeroSection.css'
 
@@ -680,8 +680,51 @@ function RootLayout() {
   return (
     <div className={`App ${isLoaded ? "loaded" : ""}`}>
      
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#hero">Paradise Cliff</a>
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+
+    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul className="navbar-nav ms-auto">
+        <li className="nav-item">
+          <a className="nav-link" href="#about">About</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#explore">Explore</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#services">Services</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
 {/* Hero Section */}
-<section className="hero-section">
+<section className="hero-section" id="hero">
   <div className="hero-overlay">
     <div className="container text-center text-white">
       <h1 className="display-4 fw-bold">Welcome to Paradise Cliff </h1>
@@ -701,7 +744,7 @@ function RootLayout() {
 
 
       {/* About Section */}
-      <section className="about-section py-5">
+      <section className="about-section py-5" id="about">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
@@ -749,7 +792,7 @@ Paradise Cliff brings you closer to the wild and wonderful beauty of nature—wi
       </section>
 
       {/* Explore the World */}
-      <section className="explore-world py-5 bg-light">
+      <section className="explore-world py-5 bg-light" id="explore">
         <div className="container">
           <h2 className="section-title text-center mb-5">Explore the World</h2>
           {renderExploreBlocks()}
@@ -757,7 +800,7 @@ Paradise Cliff brings you closer to the wild and wonderful beauty of nature—wi
       </section>
 
       {/* Portfolio Gallery */}
-      <section className="portfolio-section py-5">
+      <section className="portfolio-section py-5" id="portfolio">
         <div className="container">
           <div className="text-center mb-5">
             <h2>Destinations & Tours</h2>
@@ -789,7 +832,7 @@ Paradise Cliff brings you closer to the wild and wonderful beauty of nature—wi
       </section>
 
       {/* Services */}
-      <section className="services-section py-5">
+      <section className="services-section py-5" id="services">
         <div className="container">
           <div className="text-center mb-5">
             <h2>Tour Packages</h2>
@@ -814,7 +857,7 @@ Paradise Cliff brings you closer to the wild and wonderful beauty of nature—wi
       </section>
 
       {/* Testimonials */}
-      <section className="testimonials-section py-5 bg-light">
+      <section className="testimonials-section py-5 bg-light" id="testimonials">
         <div className="container">
           <h2 className="section-title text-center mb-5">Traveler Stories</h2>
           <div className="row">
@@ -838,7 +881,7 @@ Paradise Cliff brings you closer to the wild and wonderful beauty of nature—wi
       </section>
 
       {/* Contact */}
-      <section className="contact-section py-5">
+      <section className="contact-section py-5" id="contact">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 mb-4">
@@ -864,7 +907,7 @@ Paradise Cliff brings you closer to the wild and wonderful beauty of nature—wi
 
       {/* Footer */}
       <footer className="footer-section py-4 text-center">
-        <p>&copy; 2025 WanderWorld Tours. All rights reserved.</p>
+        <p>&copy; 2025  Tours. All rights reserved.</p>
         <div className="social-links">
           <a href="#"><FaInstagram /></a>
           <a href="#"><FaFacebook /></a>
