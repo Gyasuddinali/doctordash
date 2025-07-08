@@ -24,6 +24,17 @@ function RootLayout() {
     { id: 8, category: "hiking", title: "Canyon Hike", description: "Explore dramatic canyon trails and vistas.", image: "https://southwestmicroadventures.com/wp-content/uploads/2020/02/Grand-Canyon-Rim-to-Rim-Day-South-Kaibab-Hike.jpg", size: "large" }
   ];
 
+
+  const Items = [
+    { id: 1, category: "adventure", title: "Mountain Trekking", 
+      description: "Mountain trekking refers to the act of walking or hiking through mountainous regions, often on established trails, to reach a summit or simply explore the wilderness. It differs from mountaineering in that it doesn't usually involve technical climbing or specialized gear like ropes or crampons.", image: "https://tse4.mm.bing.net/th/id/OIP.ZxZ_cxWzQyg_8Rwsv6nL0QHaEW?rs=1&pid=ImgDetMain&o=7&rm=3", size: "medium" },
+    { id: 2, category: "culture", title: "Local Markets", 
+      description: "Local markets are community-based marketplaces where vendors sell a variety of goods—often including fresh produce, handmade crafts, clothing, street food, and local specialties. They can be open-air, covered, or indoor, and they usually support local farmers, artisans, and small businesses.", image: "https://tse4.mm.bing.net/th/id/OIP.40oj8h9asu4WsgrZqLmOOwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", size: "medium" },
+    { id: 3, category: "nature", title: "Serene Beach Escape", 
+      description: "Unlike bustling beach resorts packed with crowds and nightlife, a serene beach escape emphasizes tranquility, natural beauty, and minimal distractions. It’s about slow mornings, barefoot walks, fresh seafood, and reconnecting with yourself or loved ones", image: "https://media.cntraveler.com/photos/566f062f8a2b39b76071c71a/master/pass/Maldavies-CR-ChrisMRogersGalleryStock.jpg", size: "small" },
+    
+  ];
+
   const filteredItems = activeFilter === "all"
     ? portfolioItems
     : portfolioItems.filter(item => item.category === activeFilter);
@@ -46,6 +57,23 @@ function RootLayout() {
       );
     });
 
+
+
+      const renderItem = () =>
+    Items.slice(0, 3).map((item, idx) => {
+      const reverse = idx % 2 === 1;
+      return (
+        <div className={`row align-items-center mb-5 ${reverse ? "flex-md-row-reverse" : ""}`} key={item.id}>
+          <div className="col-md-6">
+            <img src={item.image} alt={item.title} className="img-fluid rounded shadow" />
+          </div>
+          <div className="col-md-6">
+            <h3 className="fw-bold">{item.title}</h3>
+            <p className="text-dark">{item.description}</p>
+          </div>
+        </div>
+      );
+    });
   return (
     <div className={`App ${isLoaded ? "loaded" : ""}`}>
 
@@ -123,7 +151,7 @@ Paradise Cliff brings you closer to the wild and wonderful beauty of nature—wi
       <section className="explore-world py-5 bg-light" id="explore">
         <div className="container">
           <h2 className="section-title text-center mb-5">Explore the World</h2>
-          {renderExploreBlocks()}
+          {renderItem()}
         </div>
       </section>
 
