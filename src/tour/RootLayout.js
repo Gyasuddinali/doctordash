@@ -6,6 +6,8 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import './HeroSection.css'
 import AboutSection from "./AboutSection";
 import MountainRom from "./MountainRom";
+import Profile from "./Profile";
+import Natural from "./Natural";
 
 function RootLayout() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -85,7 +87,7 @@ function RootLayout() {
         <div className={`row align-items-center mb-5 ${reverse ? "flex-md-row-reverse" : ""}`} key={item.id}>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#home">Visionary Promoters</a>
+        <a className="navbar-brand" href="#home">The Visionary Promoters</a>
         <button
   className="navbar-toggler"
   type="button"
@@ -101,10 +103,19 @@ function RootLayout() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
+              <a className="nav-link" href="#profile">Profile</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#natural">Natural</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#kasar">Kasar</a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">Services</a>
+              <a className="nav-link" href="#almora">Almora</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#tour">Tour</a>
@@ -154,6 +165,17 @@ AMAFHH has already to its credit the success of its previously promoted projects
   </div>
 </section>
 
+<Profile></Profile>
+<Natural></Natural>
+<AboutSection></AboutSection>
+<MountainRom></MountainRom>
+      {/* Explore the World */}
+      <section className="explore-world py-5 bg-light" id="tour">
+        <div className="container">
+          <h2 className="section-title text-center mb-5">Explore the World</h2>
+          {renderItem()}
+        </div>
+      </section>
 
 
       {/* About Section */}
@@ -199,15 +221,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
           </div>
         </div>
       </section>
-<AboutSection></AboutSection>
-<MountainRom></MountainRom>
-      {/* Explore the World */}
-      <section className="explore-world py-5 bg-light" id="tour">
-        <div className="container">
-          <h2 className="section-title text-center mb-5">Explore the World</h2>
-          {renderItem()}
-        </div>
-      </section>
+
 
       {/* Portfolio Gallery */}
       <section className="portfolio-section py-5" id="portfolio">
@@ -269,7 +283,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
       {/* Testimonials */}
       <section className="testimonials-section py-5 bg-light" id="testimonials">
         <div className="container">
-          <h2 className="section-title text-center mb-5">Traveler Stories</h2>
+          <h2 className="section-title text-center mb-5">Couple Reviews</h2>
           <div className="row">
             {[
               { name: "Gyasuddin Ali & Unknown", from: "London,UK", msg: "Our beach honeymoon with WanderWorld was pure bliss. From sunrise yoga to seafood dinners — unforgettable memories!" },

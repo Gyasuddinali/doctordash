@@ -2,7 +2,7 @@
 
 function  AboutSection() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5"  id="kasar">
         <h1 className="bg-dark rounded text-center text-white">KASARDEVI</h1>
               <h1 className="bg-success rounded text-white">Images Of Heaven</h1>
 
