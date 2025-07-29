@@ -8,7 +8,7 @@ import AboutSection from "./AboutSection";
 import MountainRom from "./MountainRom";
 import Profile from "./Profile";
 import Natural from "./Natural";
-
+import Himalay from './Himalay'
 function RootLayout() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeFilter, setActiveFilter] = useState("all");
@@ -106,22 +106,23 @@ function RootLayout() {
               <a className="nav-link" href="#profile">Profile</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#natural">Natural</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#kasar">Kasar</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <a className="nav-link" href="#uttranchal"> Uttaranchal</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#almora">Almora</a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#kasar">Kasardevi</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#paradise">Paradise</a>
+            </li> 
+          
+            <li className="nav-item">
               <a className="nav-link" href="#tour">Tour</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">Gallery</a>
+              <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
@@ -147,28 +148,29 @@ function RootLayout() {
 
 
 {/* Hero Section */}
-<section className="hero-section" id="hero">
-  <div className="hero-overlay mt-5">
-    <div className="container text-center text-white mt-5">
-      <h1 className="display-4 pt-5 fw-bold ">The Visionary Promoters </h1>
-           <h3 className="display-4 fw-bold">Discover the World with  Paradise Cliff </h3>
-
-     <p className="lead  mb-4 text-white">
-AMAFHH Hotels & Resorts Pvt. Ltd. - one of the pioneering companies to introduce the concept of life amidst nature is a well known name in the field of real estate development in the Himalayan hills.
-AMAFHH has already to its credit the success of its previously promoted projects that have not just provided material properties to its clients but has also built a life long association with them. AMAFHH prides it self for its expertises and experience of transforming dreams into realities. The joy and happiness of its satisfied customers
+    <section className="hero-section d-flex align-items-center" id="hero">
+      <div className="hero-overlay">
+      <div className="container text-center text-white hero-content">
+        <h1 className="hero-title">The Visionary Promoters</h1>
+        <h2 className="hero-subtitle">Discover the World with Paradise Cliff</h2>
+        <p className="hero-text mx-auto">
+          AMAFHH Hotels & Resorts Pvt. Ltd., a pioneer in Himalayan hillside living, is
+          known for real estate development that marries nature with luxury.
         </p>
-        <p className=" lead mb-4 text-white">
-          Whether you're chasing sunrises, diving into crystal-clear lagoons, or just sipping coffee above the clouds—Paradise Cliff is where every moment feels infinite.
+        <p className="hero-text mx-auto mb-4">
+          From cloud-lit mornings to panoramic valley views—Paradise Cliff promises unforgettable moments.
         </p>
-      {/* <a href="#explore" className="btn btn-lg btn-primary">Explore Now</a> */}
-    </div>
-  </div>
-</section>
+        
+      </div>
+      </div>
+    </section>
 
 <Profile></Profile>
-<Natural></Natural>
-<AboutSection></AboutSection>
+<Himalay></Himalay>
 <MountainRom></MountainRom>
+<AboutSection></AboutSection>
+<Natural></Natural>
+
       {/* Explore the World */}
       <section className="explore-world py-5 bg-light" id="tour">
         <div className="container">
@@ -224,7 +226,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
 
 
       {/* Portfolio Gallery */}
-      <section className="portfolio-section py-5" id="portfolio">
+      {/* <section className="portfolio-section py-5" id="portfolio">
         <div className="container">
           <div className="text-center mb-5">
             <h2>Destinations</h2>
@@ -253,7 +255,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Services */}
       {/* <section className="services-section py-5" id="services">

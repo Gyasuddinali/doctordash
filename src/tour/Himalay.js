@@ -1,26 +1,35 @@
-
 import React from 'react';
 
 function AboutSection() {
   return (
-    <div className="container mt-5" id="kasar">
-      <h1 className="bg-dark rounded text-center text-white">KASARDEVI</h1>
-      <h2 className="bg-success rounded text-white text-center mt-3">Images Of Heaven</h2>
+    <div className="container mt-5" id="uttranchal">
+      <h1 className="bg-dark rounded text-center text-white">Uttranchal</h1>
+      <h2 className="bg-success rounded text-white text-center mt-3">Feeling the Himalayas
+</h2>
 
       <div className="row mt-4">
         {/* Left: About Section */}
         <div className="col-lg-6 col-md-12 mb-4">
-          <h2 className="fw-bold">Soak in the Healthy Climate</h2>
+          <h2 className="fw-bold">FALL IN LOVE WITH THE TERRAIN</h2>
           <p className="text-justify">
-            Rising majestically from the panoramic backdrop of a range of mountains is Kasardevi - the highest hill of the Almora region and home to Paradise Cliff.
-            The height makes it the ideal place for enjoying the enchanting views of the snowclad peaks that surround the place from three sides.
-            Trishul, Nandadevi and other peaks are a treat to the eyes.
-            The spectrum of colors that cover every view of the mighty Himalayas from here, ranges from the golden hue at sunrise to a burning crimson red at sunset.
-            Apart from the views, the most attractive feature of every house within Paradise Cliff is the entrancing, life-enhancing climate—a gift of the purity of nature.
+            Lofty mountains, lush valleys, exotic flowers and unmatched spectacle 
+            against permanent snows... the great Himalayan escape has always been the
+             cynosure of the discerning. Nestled under the shadows of this majestic 
+             mountain range is Uttaranchal - the state that offers the glory of nature
+              at its best. Life in these hills is nothing but a glimpse of paradise - 
+              where a leisurely walk is often interrupted by the passing clouds, where
+               every breath is filled with the scent of a thousand flowers, where 
+               every view is painted in a million shades of greens and blues.
+                It is in these serene settings that Paradise Cliff is placed. 
+                A unique housing option that is unmatched in ambience and uncomparable
+                 in features.
+
+
+
           </p>
 
           <img
-            src="https://tse2.mm.bing.net/th/id/OIP.MYm_h0q0II-wN2UrJnrj3wHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+            src="https://1.bp.blogspot.com/-50oCXAwJnzA/XwBOcXM_rJI/AAAAAAAAMeI/OfU-0A-_gKMyKhREHYu47CP5bFjYdZoyQCLcBGAsYHQ/d/106909661_956712478084003_4686402456312810897_o.jpg"
             alt="Main View"
             className="img-fluid rounded mt-3"
             style={{ width: '100%', objectFit: 'cover', maxHeight: '300px' }}
@@ -30,19 +39,19 @@ function AboutSection() {
         {/* Right: 3 Images */}
         <div className="col-lg-6 col-md-12 d-flex flex-column gap-3">
           <img
-            src="https://static2.tripoto.com/media/filter/nl/img/25072/TripDocument/1531333077_mg_9910_1.jpg"
+            src="https://as2.ftcdn.net/v2/jpg/02/87/20/19/1000_F_287201927_2qIqUSkAp6dxsY5erhmLrUQDFafJFFg7.jpg"
             alt="Image 1"
             className="img-fluid rounded"
             style={{ objectFit: 'cover', width: '100%', maxHeight: '180px' }}
           />
           <img
-            src="https://images.picxy.com/cache/2020/11/20/d32e57f8afbdcb96a8c8d0909a9631e3.jpg"
+            src="https://thumbs.dreamstime.com/b/kumaon-himalaya-mountain-range-snow-peaks-flying-migratory-birds-as-viewed-binsar-zero-point-uttarakhand-india-176822477.jpg"
             alt="Image 2"
             className="img-fluid rounded"
             style={{ objectFit: 'cover', width: '100%', maxHeight: '180px' }}
           />
           <img
-            src="https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2017/12/rsz_shutterstock_394361947.jpg"
+            src="https://c8.alamy.com/comp/2F85WEB/himalaya-panoramic-view-of-indian-himalayas-great-himalayan-range-uttarakhand-india-2F85WEB.jpg"
             alt="Image 3"
             className="img-fluid rounded"
             style={{ objectFit: 'cover', width: '100%', maxHeight: '180px' }}
@@ -53,7 +62,7 @@ function AboutSection() {
       {/* Bottom Section with Overlay */}
       <div className="mt-5 position-relative">
         <img
-          src="https://wallpaperaccess.com/full/2416436.jpg"
+          src="https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/07/30145525/valley-of-flowers-1600x900.jpg"
           alt="Bottom Image"
           className="w-100 rounded"
           style={{
@@ -63,7 +72,7 @@ function AboutSection() {
           }}
         />
 
-        <div
+        {/* <div
           className="position-absolute text-white p-3 p-sm-4"
           style={{
             top: '50%',
@@ -75,7 +84,7 @@ function AboutSection() {
             width: '100%',
           }}
         >
-          <h5 className="fw-bold"> Our Highlights</h5>
+          <h5 className="fw-bold">🌟 Our Highlights</h5>
           <ul className="mb-0 small">
             <li>Highest hill of Almora — 6500 ft. above sea level</li>
             <li>Just 6 km from Almora town</li>
@@ -85,7 +94,7 @@ function AboutSection() {
             <li>Home to Kasardevi temple, surrounded by dense oak forests</li>
             <li>Excellent public transport to and from Almora</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );
