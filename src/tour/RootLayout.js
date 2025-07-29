@@ -85,7 +85,7 @@ function RootLayout() {
 
         
         <div className={`row align-items-center mb-5 ${reverse ? "flex-md-row-reverse" : ""}`} key={item.id}>
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          {/* <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#home">The Visionary Promoters</a>
         <button
@@ -130,7 +130,7 @@ function RootLayout() {
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> */}
           <div className="col-md-6">
             <img src={item.image} alt={item.title} className="img-fluid rounded shadow" />
           <h4 className="text-center">{item.subtitle}</h4>
@@ -148,7 +148,7 @@ function RootLayout() {
 
 
 {/* Hero Section */}
-    <section className="hero-section d-flex align-items-center" id="hero">
+    {/* <section className="hero-section d-flex align-items-center" id="hero">
       <div className="hero-overlay">
       <div className="container text-center text-white hero-content">
         <h1 className="hero-title">The Visionary Promoters</h1>
@@ -163,7 +163,7 @@ function RootLayout() {
         
       </div>
       </div>
-    </section>
+    </section> */}
 
 <Profile></Profile>
 <Himalay></Himalay>
@@ -180,7 +180,7 @@ function RootLayout() {
       </section>
 
 
-      {/* About Section */}
+      {/* About Section
       <section className="about-section py-5" id="about">
         <div className="container">
           <div className="row align-items-center">
@@ -222,7 +222,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* Portfolio Gallery */}
@@ -283,7 +283,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
       </section> */}
 
       {/* Testimonials */}
-      <section className="testimonials-section py-5 bg-light" id="testimonials">
+      {/* <section className="testimonials-section py-5 bg-light" id="testimonials">
         <div className="container">
           <h2 className="section-title text-center mb-5">Couple Reviews</h2>
           <div className="row">
@@ -304,10 +304,10 @@ AMAFHH has already to its credit the success of its previously promoted projects
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact */}
-      <section className="contact-section py-5" id="contact">
+      {/* <section className="contact-section py-5" id="contact">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 mb-4">
@@ -329,17 +329,17 @@ AMAFHH has already to its credit the success of its previously promoted projects
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
-      <footer className="footer-section py-4 text-center">
+      {/* <footer className="footer-section py-4 text-center">
         <p>&copy; 2025  Tours. All rights reserved.</p>
         <div className="social-links">
           <a href="#"><FaInstagram /></a>
           <a href="#"><FaFacebook /></a>
           <a href="#"><FaTwitter /></a>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
