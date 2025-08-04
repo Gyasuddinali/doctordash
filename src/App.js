@@ -14,11 +14,11 @@ function App() {
 
 
  <div>
-  {/* <RootLayout></RootLayout> */}
-  <Profile></Profile>
+  <RootLayout></RootLayout>
+  {/* <Profile></Profile>
   <Himalay></Himalay>
   <MountainRom></MountainRom>
-  <AboutSection></AboutSection>
+  <AboutSection></AboutSection> */}
       {/* <Sidebar />
       <div className="flex-grow-1 d-flex flex-column">
         <Header />

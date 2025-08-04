@@ -165,7 +165,7 @@ function RootLayout() {
       </div>
     </section> */}
 
-<Profile></Profile>
+{/* <Profile></Profile> */}
 <Himalay></Himalay>
 <MountainRom></MountainRom>
 <AboutSection></AboutSection>
