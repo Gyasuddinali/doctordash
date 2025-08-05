@@ -172,7 +172,7 @@ function RootLayout() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <div className="about-image-container">
+              {/* <div className="about-image-container">
                 <img
                   src="https://assets.thehansindia.com/h-upload/2019/12/27/248830-worldtour.jpg"
                   alt="Explore the World"
@@ -183,7 +183,7 @@ function RootLayout() {
                     <i className="fas fa-globe fa-3x"></i>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-6">
               <h2 className="section-title">About The Visionary Promoters</h2>
@@ -329,6 +329,8 @@ AMAFHH has already to its credit the success of its previously promoted projects
               <form className="contact-form">
                 <div className="mb-3"><input type="text" className="form-control" placeholder="Your Name" /></div>
                 <div className="mb-3"><input type="email" className="form-control" placeholder="Your Email" /></div>
+               <div className="mb-3"><input type="destination" className="form-control" placeholder="Your Destination" /></div>
+
                 <div className="mb-3"><textarea rows="4" className="form-control" placeholder="Tell us about your dream trip..."></textarea></div>
                 <button type="submit" className="btn btn-primary w-100">Send Inquiry</button>
               </form>
