@@ -165,22 +165,9 @@ function RootLayout() {
       </div>
     </section> */}
 
-{/* <Profile></Profile> */}
-<Himalay></Himalay>
-<MountainRom></MountainRom>
-<AboutSection></AboutSection>
-<Natural></Natural>
-
-      {/* Explore the World */}
-      <section className="explore-world py-5 bg-light" id="tour">
-        <div className="container">
-          <h2 className="section-title text-center mb-5">Explore the World</h2>
-          {renderItem()}
-        </div>
-      </section>
 
 
-      {/* About Section
+      {/* About Section */}
       <section className="about-section py-5" id="about">
         <div className="container">
           <div className="row align-items-center">
@@ -222,7 +209,26 @@ AMAFHH has already to its credit the success of its previously promoted projects
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
+
+
+
+
+{/* <Profile></Profile> */}
+<Himalay></Himalay>
+<MountainRom></MountainRom>
+<AboutSection></AboutSection>
+<Natural></Natural>
+
+      {/* Explore the World */}
+      <section className="explore-world py-5 bg-light" id="tour">
+        <div className="container">
+          <h2 className="section-title text-center mb-5">Explore the World</h2>
+          {renderItem()}
+        </div>
+      </section>
+
+
 
 
       {/* Portfolio Gallery */}
@@ -307,7 +313,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
       </section> */}
 
       {/* Contact */}
-      {/* <section className="contact-section py-5" id="contact">
+      <section className="contact-section py-5" id="contact">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 mb-4">
@@ -329,7 +335,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Footer */}
       {/* <footer className="footer-section py-4 text-center">
