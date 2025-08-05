@@ -2,8 +2,8 @@ import React from 'react';
 
 function AboutSection() {
   return (
-    <div className="container mt-5" id="uttranchal">
-      <h1 className="bg-dark rounded text-center text-white">Uttranchal</h1>
+    <div className="container pt-5 mt-5" id="uttranchal">
+      <h1 className="bg-dark rounded text-center text-white">Uttarakhand</h1>
       <h2 className="bg-success rounded text-white text-center mt-3">Feeling the Himalayas
 </h2>
 

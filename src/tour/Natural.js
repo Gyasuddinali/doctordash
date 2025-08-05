@@ -38,14 +38,13 @@ function Natural() {
 
         {/* Right: Text */}
         <div className="col-lg-6 col-md-12">
-          <h2 className="text-center text-danger mb-3">An Unmatched Housing Option</h2>
+          <h2 className="text-center text-danger mb-3">An Unmatched Cottages Option</h2>
           <p className="pt-3" style={{ textAlign: 'justify' }}>
-            AMAFHH has already to its credit the success of its previously promoted housing projects.
             Imagine waking up to clouds entering your bedroom, the sweet scent of flowers filling the air,
             birds chirping melodiously, and raindrops decorating green leaves. Life at Paradise Cliff is
             like living your fantasies.
             <br /><br />
-            Every home here is an artistic blend of elegant design and natural beauty, created to meet the
+            Every Cottages here is an artistic blend of elegant design and natural beauty, created to meet the
             lifestyle of true connoisseurs. Paradise Cliff is where health and serenity meet modern living.
           </p>
 

@@ -32,7 +32,7 @@ function RootLayout() {
   const Items = [
     { id: 1, category: "adventure", title: "Nainital", subtitle:"NAINITAL LAKE VIEW",
       description: "This most famous hill station of Kumaon is 62 Kms from  situated at 6300 feet above see level this resort town is centered around a lake and has been the summer seat of the Provincial Government 7 Kms from Almora is perched atop the 5 Kms long saddle shaped ridge situated at 5800 feet above sea level.", image: "https://1.bp.blogspot.com/-5WtytcU0cV8/Xt-JQJOGffI/AAAAAAAADY8/__4BPVjfI_gW3oautX2GSPW1Dnc7aKZCwCK4BGAsYHg/s1440/Best-Places-to-visit-in-Nainital.jpg", size: "medium" , },
-    { id: 2, category: "culture", title: "NAINITAL LAKE", subtitle:"A VIEW OF ALMORA",
+    { id: 2, category: "culture", title: "NAINITAL LAKE", subtitle:"A VIEW OF Nainital",
       description:"Almora is the cultural centre of Kumaon. This is the District Headquarters and has a University and other Educational Institutions. There are very good medical facilities available at the Base Hospital and Almora aho has a helipad Driving time from Kathgodam 2hrs", image: "https://media.tripinvites.com/places/nainital/naini-lake/picturesque-nainital-lake-featured.jpg", size: "medium" },
     { id: 3, category: "nature", title: "Haldwani /Kathgodam", subtitle:"A VIEW OF NANDA DEVI FROM CHAUKORI",
       description: "Connected by rail to Delhi, Agra Bareily and Bucknow Important trains Shalabadi Express, Howrah Express (3019/3020), Ranikhet Express (3013/3014), Nainital Express (5308/5307) Rampur Passenger (1/2 RKPassenger and%RK of the biggest fruit and Passenger). Major town for all supplies to the hills. Is one vegetable", image: "https://www.lifeberrys.com/img/article/haldwani-1-1630993007-lb.jpg", size: "small" },
@@ -168,11 +168,11 @@ function RootLayout() {
 
 
       {/* About Section */}
-      <section className="about-section py-5" id="about">
+      {/* <section className="about-section py-5" id="about">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              {/* <div className="about-image-container">
+              <div className="about-image-container">
                 <img
                   src="https://assets.thehansindia.com/h-upload/2019/12/27/248830-worldtour.jpg"
                   alt="Explore the World"
@@ -183,7 +183,7 @@ function RootLayout() {
                     <i className="fas fa-globe fa-3x"></i>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
             <div className="col-lg-6">
               <h2 className="section-title">About The Visionary Promoters</h2>
@@ -209,7 +209,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 
@@ -313,7 +313,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
       </section> */}
 
       {/* Contact */}
-      <section className="contact-section py-5" id="contact">
+      {/* <section className="contact-section py-5" id="contact">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 mb-4">
@@ -337,7 +337,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       {/* <footer className="footer-section py-4 text-center">

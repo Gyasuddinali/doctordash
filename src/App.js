@@ -9,12 +9,24 @@ import MountainRom from "./tour/MountainRom";
 import Profile from "./tour/Profile";
 import Natural from "./tour/Natural";
 import Himalay from './tour/Himalay'
+import About from './tour/About';
+import Contact from './tour/Contact';
+
+import {BrowserRouter, Routes, Route } from "react-router-dom"; 
+import NavBar from './tour/NavBar';
 function App() {
   return (
 
-
  <div>
-  <RootLayout></RootLayout>
+  <BrowserRouter>
+  <NavBar></NavBar>
+  <Routes>
+<Route path="/about" element={<About></About>} />
+        <Route path="/" element={  <RootLayout></RootLayout>} />
+        <Route path="/contact" element={<Contact />} />
+    
+  </Routes>
+  </BrowserRouter>
   {/* <Profile></Profile>
   <Himalay></Himalay>
   <MountainRom></MountainRom>
