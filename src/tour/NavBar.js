@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './image/logo.jpeg'; 
 
 export default function NavBar() {
   return (
@@ -6,7 +7,8 @@ export default function NavBar() {
 
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#home">The Visionary Promoters</a>
+        <a className="navbar-brand" href="/"> <img src={logo} alt="the visionry promotor Logo" style={{ maxWidth: '40px' }} />
+        The Visionary Promoters</a>
         <button
   className="navbar-toggler"
   type="button"

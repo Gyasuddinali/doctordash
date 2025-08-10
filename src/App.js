@@ -11,14 +11,18 @@ import Natural from "./tour/Natural";
 import Himalay from './tour/Himalay'
 import About from './tour/About';
 import Contact from './tour/Contact';
-
+import Footer from './tour/Footer'
 import {BrowserRouter, Routes, Route } from "react-router-dom"; 
 import NavBar from './tour/NavBar';
+import {
+  FaWhatsapp,
+  FaPhone,FaShoppingCart
+} from "react-icons/fa"
+import FloatingButtons from './tour/FloatingButtons';
 function App() {
   return (
 
- <div>
-  <BrowserRouter>
+ <div className="app-container">
   <NavBar></NavBar>
   <Routes>
 <Route path="/about" element={<About></About>} />
@@ -26,7 +30,16 @@ function App() {
         <Route path="/contact" element={<Contact />} />
     
   </Routes>
-  </BrowserRouter>
+  
+<Footer></Footer>
+ <FloatingButtons />
+
+   
+
+
+
+
+
   {/* <Profile></Profile>
   <Himalay></Himalay>
   <MountainRom></MountainRom>
