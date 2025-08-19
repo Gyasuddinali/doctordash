@@ -8,7 +8,7 @@ export default function NavBar() {
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="/"> <img src={logo} alt="the visionry promotor Logo" style={{ maxWidth: '40px' }} />
-        The Visionary Promoters</a>
+       PRADISE CLIFF </a>
         <button
   className="navbar-toggler"
   type="button"

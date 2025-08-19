@@ -82,7 +82,7 @@ const Footer = () => {
                 href="mailto:contact@visionarypromoters.in"
                 className="text-dark text-decoration-none"
               >
-                contact@universaladventures.in
+                contact@PRADISE CLIFF.in
               </a>
             </p>
           </div>

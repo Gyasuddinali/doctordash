@@ -71,30 +71,6 @@ function AboutSection() {
             width: '100%',
           }}
         />
-
-        {/* <div
-          className="position-absolute text-white p-3 p-sm-4"
-          style={{
-            top: '50%',
-            left: '5%',
-            transform: 'translateY(-50%)',
-            backgroundColor: 'rgba(0, 0, 0, 0.6)',
-            borderRadius: '8px',
-            maxWidth: '90%',
-            width: '100%',
-          }}
-        >
-          <h5 className="fw-bold">🌟 Our Highlights</h5>
-          <ul className="mb-0 small">
-            <li>Highest hill of Almora — 6500 ft. above sea level</li>
-            <li>Just 6 km from Almora town</li>
-            <li>Uninterrupted views of Nandadevi, Trishul, and Panchachuli</li>
-            <li>Away from the chaos of cities yet close to modern amenities</li>
-            <li>Inhabited by Buddhist monks, popular for long stays</li>
-            <li>Home to Kasardevi temple, surrounded by dense oak forests</li>
-            <li>Excellent public transport to and from Almora</li>
-          </ul>
-        </div> */}
       </div>
     </div>
   );

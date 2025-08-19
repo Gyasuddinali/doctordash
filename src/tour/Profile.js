@@ -85,36 +85,6 @@ projects that have not just provided material properties to its clients
           }}
         />
 
-        {/* Overlay Box */}
-        {/* <div
-          className="position-absolute text-white p-4"
-          style={{
-            top: '50%',
-            left: '5%',
-            transform: 'translateY(-50%)',
-            backgroundColor: 'rgba(0, 0, 0, 0.6)',
-            borderRadius: '8px',
-            maxWidth: '800px'
-          }}
-        >
-          <h5>Our Highlights</h5>
-          <ul className="mb-0">
-            <li>5400 ft. Above Sea level.</li>
-            <li>345 km. From Delhi.</li>
-            <li>Nanital, Ranikhet, Kausani, Binsar, Shitlakhet, Mukteshig Pithoragarh, Ramgarh-olla short drive away,</li>
-            <li>All basic facilities like good hospitals, colleges, schools & good transport system.</li>
-            <li>Highest hill of Almoran Just 6 km from Alma Uninterrupted views o Trishul & efter Him</li>
-            <li>Away from chaos of omenifes</li>
-            <li>Minimum temp. 2-15 (during winters Maximum 9-20
-during summers
-</li>
-            <li>Exceptionally well maintained all weather rood network
-Excellant public trans
-</li>
-            <li>Hope to Kaardter sneering is a well in the of its ovidedtolife
-</li>
-          </ul>
-        </div> */}
       </div>
     </div>
   );

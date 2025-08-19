@@ -32,6 +32,19 @@ export default function Contact() {
       </section>
 
 
+
+ {/* Full-Screen Responsive Map Section */}
+      <section className="w-100 vh-100">
+        <iframe
+          title="Paradise Cliff Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.946456342907!2d79.65396761509137!3d29.61917668205425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a53b6e6503b3%3A0xf0f7e75f29b45fc9!2sKasar%20Devi%2C%20Almora%2C%20Uttarakhand%20263601!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+          className="w-100 h-100 border-0"
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
     </div>
   )
 }

@@ -9,6 +9,12 @@ import MountainRom from "./MountainRom";
 import Profile from "./Profile";
 import Natural from "./Natural";
 import Himalay from './Himalay'
+import WhyChoose from "./WhyChoose";
+import IdealFor from "./IdealFor";
+import Attractions from "./Attractions";
+import Highlights from "./Highlights";
+import Booking from "./Booking";
+import Welcome from './Welcome';
 function RootLayout() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeFilter, setActiveFilter] = useState("all");
@@ -148,22 +154,22 @@ function RootLayout() {
 
 
 {/* Hero Section */}
-    {/* <section className="hero-section d-flex align-items-center" id="hero">
+    <section className="hero-section d-flex align-items-center" id="hero">
       <div className="hero-overlay">
       <div className="container text-center text-white hero-content">
-        <h1 className="hero-title">The Visionary Promoters</h1>
-        <h2 className="hero-subtitle">Discover the World with Paradise Cliff</h2>
-        <p className="hero-text mx-auto">
+        <h1 className="hero-title">PRADISE CLIFF – Crown Jewel of Almorah</h1>
+        <h2 className="hero-subtitle">Where the Himalayas greet you every morning.</h2>
+        {/* <p className="hero-text mx-auto">
           AMAFHH Hotels & Resorts Pvt. Ltd., a pioneer in Himalayan hillside living, is
           known for real estate development that marries nature with luxury.
         </p>
         <p className="hero-text mx-auto mb-4">
           From cloud-lit mornings to panoramic valley views—Paradise Cliff promises unforgettable moments.
-        </p>
+        </p> */}
         
       </div>
       </div>
-    </section> */}
+    </section>
 
 
 
@@ -215,11 +221,18 @@ AMAFHH has already to its credit the success of its previously promoted projects
 
 
 {/* <Profile></Profile> */}
+
+
+
+<Welcome/>
+      <IdealFor />
+      <Attractions />
+      <Highlights />
+      <WhyChoose></WhyChoose>
 <Himalay></Himalay>
 <MountainRom></MountainRom>
 <AboutSection></AboutSection>
 <Natural></Natural>
-
       {/* Explore the World */}
       <section className="explore-world py-5 bg-light" id="tour">
         <div className="container">
@@ -227,6 +240,7 @@ AMAFHH has already to its credit the success of its previously promoted projects
           {renderItem()}
         </div>
       </section>
+
 
 
 

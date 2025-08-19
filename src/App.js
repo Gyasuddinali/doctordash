@@ -19,11 +19,19 @@ import {
   FaPhone,FaShoppingCart
 } from "react-icons/fa"
 import FloatingButtons from './tour/FloatingButtons';
+import Hero from "./tour/Hero";
+import WhyChoose from "./tour/WhyChoose";
+import IdealFor from "./tour/IdealFor";
+import Attractions from "./tour/Attractions";
+import Highlights from "./tour/Highlights";
+import Booking from "./tour/Booking";
+import Welcome from './tour/Welcome';
 function App() {
   return (
 
- <div className="app-container">
+ <div>
   <NavBar></NavBar>
+
   <Routes>
 <Route path="/about" element={<About></About>} />
         <Route path="/" element={  <RootLayout></RootLayout>} />
