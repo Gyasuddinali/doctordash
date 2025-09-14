@@ -225,14 +225,15 @@ AMAFHH has already to its credit the success of its previously promoted projects
 
 
 <Welcome/>
-      <IdealFor />
-      <Attractions />
-      <Highlights />
-      <WhyChoose></WhyChoose>
 <Himalay></Himalay>
 <MountainRom></MountainRom>
 <AboutSection></AboutSection>
 <Natural></Natural>
+      {/* <IdealFor /> */}
+      <Attractions />
+      <Highlights />
+      <WhyChoose></WhyChoose>
+
       {/* Explore the World */}
       <section className="explore-world py-5 bg-light" id="tour">
         <div className="container">

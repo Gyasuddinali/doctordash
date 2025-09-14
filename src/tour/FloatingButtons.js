@@ -13,7 +13,7 @@ const FloatingButtons = () => {
         className="fab fab-whatsapp"
         title="Chat on WhatsApp"
       >
-        <span className="fab-label">Need Assistance? Chat on WhatsApp</span>
+        <span className="fab-label">Chat on WhatsApp</span>
                 <FaWhatsapp />
 
       </a>
@@ -24,7 +24,7 @@ const FloatingButtons = () => {
         className="fab fab-call"
         title="Call Now"
       >
-        <span className="fab-label">Need Help? Call Us</span>
+        <span className="fab-label">Call Us</span>
         <FaPhoneAlt />
       </a>
     </div>
