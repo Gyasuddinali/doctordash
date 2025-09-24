@@ -4,8 +4,8 @@ import 'aos/dist/aos.css';
 import himalay from './destination/Himalaya From Paradise Cliff.jpeg'
 function AboutSection() {
   return (
-    <div className="container pt-2 mt-2" id="uttranchal">
-      <h1 className=" rounded text-center section-title" style={{color:'goldenrod'}}>Uttarakhand</h1>
+    <div className="container mt-1" id="uttranchal">
+      <h1 className=" rounded text-center section-title" style={{color:'goldenrod'}}>UTTRAKHAND</h1>
       <h2 className=" rounded text-success text-center mt-3">Feeling the Himalayas
 </h2>
 
