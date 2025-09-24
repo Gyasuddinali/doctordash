@@ -160,7 +160,8 @@ const BinsarNew = () => {
         <div className="col-12 col-md-11">
           <h1
             className=" section-title text-center"
-            style={{ color: 'goldenrod', fontFamily: 'cursive', fontSize: '2.5rem' }}
+            style={{color:'goldenrod'}} 
+            // style={{ color: 'goldenrod', fontFamily: 'cursive', fontSize: '2.5rem' }}
           >
              Binsar Wildlife Sanctuary
           </h1>

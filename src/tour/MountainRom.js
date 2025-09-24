@@ -5,7 +5,7 @@ import himalay from './destination/Hidden Gem Of Himalaya.jpeg'
 function MountainRom() {
   return (
     <div className="container mt-5" id="almora">
-      <h1 className=" section-title fst-italic text-success text-center" style={{fontFamily:'cursive'}}>
+      <h1 className=" section-title   text-center" style={{color:'goldenrod'}}>
         ALMORA
       </h1>
 

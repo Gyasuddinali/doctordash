@@ -5,7 +5,7 @@ import himalay from './destination/Himalaya From Paradise Cliff.jpeg'
 function AboutSection() {
   return (
     <div className="container pt-2 mt-2" id="uttranchal">
-      <h1 className=" rounded text-center text-warning section-title" style={{fontFamily:'cursive'}}>Uttarakhand</h1>
+      <h1 className=" rounded text-center section-title" style={{color:'goldenrod'}}>Uttarakhand</h1>
       <h2 className=" rounded text-success text-center mt-3">Feeling the Himalayas
 </h2>
 

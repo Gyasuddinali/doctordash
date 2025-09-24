@@ -4,7 +4,7 @@ import kasar from './destination/Kasar Devi.jpeg'
 function AboutSection() {
   return (
     <div className="container mt-5" id="kasar">
-      <h1 className=" rounded text-danger section-title" style={{fontFamily:'cursive'}}>KASARDEVI</h1>
+      <h1 className=" rounded section-title" style={{color:'goldenrod'}}>KASARDEVI</h1>
       {/* <h2 className=" rounded text-success text-center mt-3">Images Of Heaven</h2> */}
 
       <div className="row mt-4">
