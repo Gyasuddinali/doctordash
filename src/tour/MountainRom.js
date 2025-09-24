@@ -84,7 +84,7 @@ surrounded by nature while staying close to all essential amenities.
         >
           <h5 className="fw-bold"> Our Highlights</h5>
           <ul className="small mb-0" >
-            <li>5400 ft above sea level</li>
+            {/* <li>5400 ft above sea level</li>
             <li>345 km from Delhi</li>
             <li>Nearby: Nainital, Ranikhet, Kausani, Binsar, Shitlakhet, Mukteshwar</li>
             <li>Modern facilities: hospitals, colleges, schools, transport</li>
@@ -92,7 +92,20 @@ surrounded by nature while staying close to all essential amenities.
             <li>Peaceful, yet close to essentials</li>
             <li>Winter temp: 2–15°C | Summer: 9–20°C</li>
             <li>Excellent roads & public transportation</li>
-            <li>Ideal for long stays, health, and peace seekers</li>
+            <li>Ideal for long stays, health, and peace seekers</li> */}
+
+
+<li>Highest hill of Almorah — 6500 ft. above sea level</li> 
+<li>Just 6 km from Almorah town</li>
+<li>Uninterrupted views of Nandadevi, Trishul, and Panchachuli</li> 
+<li>Away from the chaos of cities yet close to modern amenities</li>
+<li>Inhabited by Buddhist monks, popular for long stays</li>
+<li>Home to Kasardevi temple, surrounded by dense oak forests</li> 
+<li>Excellent public transport to and from Almora</li>
+
+
+
+
           </ul>
         </div>
       </div>
