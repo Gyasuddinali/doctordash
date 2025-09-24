@@ -157,9 +157,9 @@ const BinsarNew = () => {
 
 {/* ✅ Desription Text Section */}
       <div className="container-fluid row justify-content-center pt-4 pb-4">
-        <div className="col-12 col-md-10 col-lg-9">
+        <div className="col-12 col-md-11">
           <h1
-            className="fst-italic text-center text-md-start pb-3"
+            className=" section-title text-center"
             style={{ color: 'goldenrod', fontFamily: 'cursive', fontSize: '2.5rem' }}
           >
              Binsar Wildlife Sanctuary
