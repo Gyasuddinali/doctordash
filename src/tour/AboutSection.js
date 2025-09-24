@@ -6,7 +6,22 @@ function AboutSection() {
     <div className="container mt-5" id="kasar">
       <h1 className=" rounded section-title" style={{color:'goldenrod'}}>KASARDEVI</h1>
       {/* <h2 className=" rounded text-success text-center mt-3">Images Of Heaven</h2> */}
-
+  <p className="text-justify">
+Rising majestically from the panoramic backdrop of a range of mountains is 
+Kasardevi - This 2nd-century temple is adorned on a hillock overlooking the 
+toy town of Almora. is a famous shrine which sits high at an altitude of 
+2,116 metres above sea level the highest hill of the Almora region and 
+home to Paradise Cliff. The height makes it the ideal place for enjoying the 
+enchanting views of the snowclad peaks that surround the place from three 
+sides. Trishul, Nandadevi and other peaks are a treat to the eyes. The 
+spectrum of colors that cover every view of the mighty Himalayas from here, 
+ranges from the golden hue at sunrise to a burning crimson red at sunset. 
+Apart from the views, the most attractive feature of every cottage of 
+Paradise Cliff is the entrancing, life-enhancing climate—a gift of the purity of 
+nature. Photographs hardly do justice to the towering views of the mighty 
+Nanda Devi (25,643 ft), Trishul (23,360 ft) and Panchachauli Peaks, which 
+seem just a stone's throw away from Kasar. 
+</p>
       <div className="row mt-4">
         {/* Left: About Section */}
         <div className="col-lg-6 col-md-12 mb-4">
