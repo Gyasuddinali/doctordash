@@ -7,8 +7,9 @@ import meetingroom from './destination/seminar-meeting-room_105762-1708.avif'
 function Natural() {
   return (
     <div className="container mt-5" id="aradise">
-      <h1 className="fst-italic text-success rounded-pill ps-5 border border-warning text-center text-md-start">
-        Paradise Cliff
+      {/* <h1 className="fst-italic text-success rounded-pill ps-5 border border-warning text-center text-md-start"> */}
+       <h1 className="section-title  text-center" style={{color:'goldenrod'}}>
+        PARADISE CLIFF
       </h1>
       <h2 className="bg-success text-center text-white rounded py-2">
         The Natural Retreat
