@@ -1,25 +1,26 @@
 
 import React from 'react';
-
+import kasar from './destination/Kasar Devi.jpeg'
 function AboutSection() {
   return (
     <div className="container mt-5" id="kasar">
-      <h1 className="bg-dark rounded text-center text-white">KASARDEVI</h1>
-      <h2 className="bg-success rounded text-white text-center mt-3">Images Of Heaven</h2>
+      <h1 className=" rounded text-danger section-title" style={{fontFamily:'cursive'}}>KASARDEVI</h1>
+      {/* <h2 className=" rounded text-success text-center mt-3">Images Of Heaven</h2> */}
 
       <div className="row mt-4">
         {/* Left: About Section */}
         <div className="col-lg-6 col-md-12 mb-4">
           <h2 className="fw-bold">Soak in the Healthy Climate</h2>
           <p className="text-justify">
-            Rising majestically from the panoramic backdrop of a range of mountains is Kasardevi - the highest hill of the Almora region and home to Paradise Cliff.
-            The height makes it the ideal place for enjoying the enchanting views of the snowclad peaks that surround the place from three sides.
-            Trishul, Nandadevi and other peaks are a treat to the eyes.
-            The spectrum of colors that cover every view of the mighty Himalayas from here, ranges from the golden hue at sunrise to a burning crimson red at sunset.
-            Apart from the views, the most attractive feature of every house within Paradise Cliff is the entrancing, life-enhancing climate—a gift of the purity of nature.
-          </p>
 
-          <img
+Whether you're seeking a romantic escape, a family holiday, or a soul
+soothing solo retreat,<strong className='text-primary'>PARADISE CLIFF</strong> is the perfect destination to 
+unwind, reconnect, and rejuvenate. We give you the seclusion of the 
+mountains without losing touch with modern comforts. Here, mornings begin 
+with the songs of birds, days are bathed in the pure mountain breeze, and 
+nights are a canvas of countless stars.           </p>
+
+          <img data-aos="fade-up"
             src="https://tse2.mm.bing.net/th/id/OIP.MYm_h0q0II-wN2UrJnrj3wHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
             alt="Main View"
             className="img-fluid rounded mt-3"
@@ -29,19 +30,19 @@ function AboutSection() {
 
         {/* Right: 3 Images */}
         <div className="col-lg-6 col-md-12 d-flex flex-column gap-3">
-          <img
+          <img data-aos="fade-down"
             src="https://static2.tripoto.com/media/filter/nl/img/25072/TripDocument/1531333077_mg_9910_1.jpg"
             alt="Image 1"
             className="img-fluid rounded"
             style={{ objectFit: 'cover', width: '100%', maxHeight: '180px' }}
           />
-          <img
-            src="https://images.picxy.com/cache/2020/11/20/d32e57f8afbdcb96a8c8d0909a9631e3.jpg"
+          <img data-aos="flip-up"
+          src={kasar}
             alt="Image 2"
             className="img-fluid rounded"
             style={{ objectFit: 'cover', width: '100%', maxHeight: '180px' }}
           />
-          <img
+          <img data-aos="flip-right"
             src="https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2017/12/rsz_shutterstock_394361947.jpg"
             alt="Image 3"
             className="img-fluid rounded"

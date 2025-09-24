@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import "./rootlay.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+
+import './sliderheader.css'
 import './HeroSection.css'
 import AboutSection from "./AboutSection";
 import MountainRom from "./MountainRom";
@@ -15,6 +17,11 @@ import Attractions from "./Attractions";
 import Highlights from "./Highlights";
 import Booking from "./Booking";
 import Welcome from './Welcome';
+import binsar from './destination/BINSAR.jpg'
+import HeroSection from "./Hero";
+import BinsarNew from './BinsarNew'
+// import Bin from "./Bin";
+import DiscoverAllPlace from "./DiscoverAllPlace";
 function RootLayout() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeFilter, setActiveFilter] = useState("all");
@@ -48,13 +55,15 @@ function RootLayout() {
     },
     {id:5,category:"culture" ,title:"A VIEW OF KOSI RIVER VALLEY FROM PARADISE CLIFF",subtitle:"A VIEW BEYOND KAUSAANI",
       description:"Binsar is 30 Kms. from Paradise Cliff and is a well known high altitude wild life sanctuary. The reserve zone of Binsar sanctuary begins from Paradise Cliff"
-    ,size:"small",image:"https://i.ytimg.com/vi/_AytXhpggxM/maxresdefault.jpg"
+    ,size:"small",image:binsar
     },
 
     {id:6,category:"culture" ,title:"Ranikhet",subtitle:"A VIEW RANIKHET",
-      description:"Another Picturesque Hill Station Kausani, is 33 Kms. Situated 6100 feet above sea level atop a narrow wooded ridge. Kausani is often compared with Switzerland Driving time from 'Paradise Cliff'-1hr 10 minutes Just 50kms away situated at 6000 ft. above sea level is Ranikhet. This retreat offers an interesting mix of hill and military cultures. It is an ideal holiday destination for nature lovers and golfers Driving time from Paradise Cliff 1hr 20 minutes"
-    ,size:"small",image:"https://tse3.mm.bing.net/th/id/OIP.MlComqG7pdVWrW8WntuktgHaEK?w=768&h=432&rs=1&pid=ImgDetMain&o=7&rm=3"
-    }
+      description:"This serene hill-station literally means ‘Land of the queen'. The cantonment town offers clear view of snow-clad Himalayan peaks Snowfall in the winters transforms the town into a dream retreat. "
+,description1:"Just 50kms away situated at 6000 ft. above sea level is Ranikhet. This retreat offers an interesting mix of hill and military cultures. It is also one of the idyllic holiday destinations for nature lovers and golfers Driving time from Paradise Cliff 1hr 20 minutes. "
+      ,size:"small",image:"https://tse3.mm.bing.net/th/id/OIP.MlComqG7pdVWrW8WntuktgHaEK?w=768&h=432&rs=1&pid=ImgDetMain&o=7&rm=3"
+    
+  }
   ];
 
   const filteredItems = activeFilter === "all"
@@ -64,7 +73,7 @@ function RootLayout() {
   const handleFilterChange = (filter) => setActiveFilter(filter);
 
   const renderExploreBlocks = () =>
-    portfolioItems.slice(0, 3).map((item, idx) => {
+    portfolioItems.slice(0, 6).map((item, idx) => {
       const reverse = idx % 2 === 1;
       return (
         <div className={`row align-items-center mb-5 ${reverse ? "flex-md-row-reverse" : ""}`} key={item.id}>
@@ -74,6 +83,10 @@ function RootLayout() {
           <div className="col-md-6">
             <h3 className="fw-bold">{item.title}</h3>
             <p className="text-dark">{item.description}</p>
+            {item.description1 && (
+      <p className="text-dark">{item.description1}</p>
+    )}
+
           </div>
         </div>
       );
@@ -154,77 +167,32 @@ function RootLayout() {
 
 
 {/* Hero Section */}
-    <section className="hero-section d-flex align-items-center" id="hero">
+    {/* <section className="hero-section d-flex align-items-center" id="hero">
       <div className="hero-overlay">
       <div className="container text-center text-white hero-content">
         <h1 className="hero-title">PRADISE CLIFF – Crown Jewel of Almorah</h1>
         <h2 className="hero-subtitle">Where the Himalayas greet you every morning.</h2>
-        {/* <p className="hero-text mx-auto">
-          AMAFHH Hotels & Resorts Pvt. Ltd., a pioneer in Himalayan hillside living, is
-          known for real estate development that marries nature with luxury.
-        </p>
-        <p className="hero-text mx-auto mb-4">
-          From cloud-lit mornings to panoramic valley views—Paradise Cliff promises unforgettable moments.
-        </p> */}
+       
         
       </div>
       </div>
-    </section>
+    </section> */}
 
 
 
-      {/* About Section */}
-      {/* <section className="about-section py-5" id="about">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <div className="about-image-container">
-                <img
-                  src="https://assets.thehansindia.com/h-upload/2019/12/27/248830-worldtour.jpg"
-                  alt="Explore the World"
-                  className="img-fluid rounded shadow-lg about-image"
-                />
-                <div className="image-overlay">
-                  <div className="overlay-content">
-                    <i className="fas fa-globe fa-3x"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <h2 className="section-title">About The Visionary Promoters</h2>
-              <p className="lead text-dark">
-AMAFHH Hotels & Resorts Pvt. Ltd. - one of the pioneering companies to introduce the concept of life amidst nature is a well known name in the field of real estate development in the Himalayan hills.
-AMAFHH has already to its credit the success of its previously promoted projects that have not just provided material properties to its clients but has also built a life long association with them. AMAFHH prides it self for its expertises and experience of transforming dreams into realities. The joy and happiness of its satisfied customers
+<HeroSection/>
 
-              </p>
-              <div className="features">
-                <div className="feature-item">
-                  <i className="fas fa-map-marker-alt text-primary"></i>
-                  <span className="text-dark">Curated Destinations</span>
-                </div>
-                <div className="feature-item">
-                  <i className="fas fa-users text-primary"></i>
-                  <span className="text-dark">Local Guides</span>
-                </div>
-                <div className="feature-item">
-                  <i className="fas fa-hiking text-primary"></i>
-                  <span className="text-dark">Adventure Experts</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+
+     
 
 
 
 
 {/* <Profile></Profile> */}
-
-
-
+{/* <Bin/> */}
 <Welcome/>
+<DiscoverAllPlace/>
+<BinsarNew/>
 <Himalay></Himalay>
 <MountainRom></MountainRom>
 <AboutSection></AboutSection>
@@ -235,12 +203,12 @@ AMAFHH has already to its credit the success of its previously promoted projects
       <WhyChoose></WhyChoose>
 
       {/* Explore the World */}
-      <section className="explore-world py-5 bg-light" id="tour">
+      {/* <section className="explore-world py-5 bg-light" id="tour">
         <div className="container">
           <h2 className="section-title text-center mb-5">Explore the World</h2>
           {renderItem()}
         </div>
-      </section>
+      </section> */}
 
 
 
@@ -303,66 +271,11 @@ AMAFHH has already to its credit the success of its previously promoted projects
         </div>
       </section> */}
 
-      {/* Testimonials */}
-      {/* <section className="testimonials-section py-5 bg-light" id="testimonials">
-        <div className="container">
-          <h2 className="section-title text-center mb-5">Couple Reviews</h2>
-          <div className="row">
-            {[
-              { name: "Gyasuddin Ali & Unknown", from: "London,UK", msg: "Our beach honeymoon with WanderWorld was pure bliss. From sunrise yoga to seafood dinners — unforgettable memories!" },
-              { name: "Afroz & ms afroz", from: "Rishikesh, India", msg: "The rafting and forest trek were spectacular. We felt safe, well-guided, and fully immersed." },
-              { name: "Danielle & Lee", from: "Bali, Indonesia", msg: "We discovered hidden temples and local cuisines. It felt like traveling with friends who knew all the secrets." }
-            ].map((t, i) => (
-              <div className="col-md-4 mb-4" key={i}>
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body">
-                    <h5 className="card-title">{t.name}</h5>
-                    <p className="card-text">“{t.msg}”</p>
-                  </div>
-                  <div className="card-footer text-muted">{t.from}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
+    
 
-      {/* Contact */}
-      {/* <section className="contact-section py-5" id="contact">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-md-6 mb-4">
-              <h2>Plan Your Journey</h2>
-              <p className="lead">Reach out to start crafting your dream trip.</p>
-              <div className="contact-info">
-                <div className="contact-item"><i className="fas fa-phone text-primary"></i><span>+91 9199245 536</span></div>
-                <div className="contact-item"><i className="fas fa-envelope text-primary"></i><span>tour@paradisecliff.com</span></div>
-                <div className="contact-item"><i className="fas fa-map-marker-alt text-primary"></i><span>Siwan, Bihar, India</span></div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <form className="contact-form">
-                <div className="mb-3"><input type="text" className="form-control" placeholder="Your Name" /></div>
-                <div className="mb-3"><input type="email" className="form-control" placeholder="Your Email" /></div>
-               <div className="mb-3"><input type="destination" className="form-control" placeholder="Your Destination" /></div>
+    
 
-                <div className="mb-3"><textarea rows="4" className="form-control" placeholder="Tell us about your dream trip..."></textarea></div>
-                <button type="submit" className="btn btn-primary w-100">Send Inquiry</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* Footer */}
-      {/* <footer className="footer-section py-4 text-center">
-        <p>&copy; 2025  Tours. All rights reserved.</p>
-        <div className="social-links">
-          <a href="#"><FaInstagram /></a>
-          <a href="#"><FaFacebook /></a>
-          <a href="#"><FaTwitter /></a>
-        </div>
-      </footer> */}
+   
     </div>
   );
 }

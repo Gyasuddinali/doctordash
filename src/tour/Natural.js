@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import meditation from './destination/Meditation Room.jpg'
+import rowCottage from './destination/Row Cotteges.jpg'
+import meetingroom from './destination/seminar-meeting-room_105762-1708.avif'
 function Natural() {
   return (
     <div className="container mt-5" id="aradise">
@@ -15,21 +17,21 @@ function Natural() {
         {/* Left: Images */}
         <div className="col-lg-6 col-md-12 mb-4">
           <div className="d-flex flex-column gap-3">
-            <img
+            <img data-aos="fade-up"
               src="https://i.pinimg.com/originals/b7/47/ed/b747edb6369af405dfb3441f0b18aab2.jpg"
               alt="Image 1"
               className="img-fluid rounded"
               style={{ maxHeight: '180px', objectFit: 'cover' }}
             />
-            <img
-              src="https://tse1.mm.bing.net/th/id/OIP.ecZyqs1ksq1Yg4esXfHxdgHaE7?pid=ImgDet&w=474&h=315&rs=1&o=7&rm=3"
+            <img data-aos="fade-down"
+            src={meditation}
               alt="Image 2"
               className="img-fluid rounded"
               style={{ maxHeight: '180px', objectFit: 'cover' }}
             />
-            <img
-              src="https://thumbs.dreamstime.com/z/doctor-doing-checkup-patient-beautiful-hispanic-examining-emergency-room-115811537.jpg"
-              alt="Image 3"
+            <img data-aos="flip-up"
+               src={rowCottage}
+               alt="Image 3"
               className="img-fluid rounded"
               style={{ maxHeight: '180px', objectFit: 'cover' }}
             />
@@ -48,8 +50,8 @@ function Natural() {
             lifestyle of true connoisseurs. Paradise Cliff is where health and serenity meet modern living.
           </p>
 
-          <img
-            src="https://tse2.mm.bing.net/th/id/OIP.HxnQobZb_2-ZnKxFnHU1nAHaEU?w=1024&h=597&rs=1&pid=ImgDetMain&o=7&rm=3"
+          <img data-aos="flip-right"
+          src={meetingroom}
             alt="Housing"
             className="img-fluid w-100 rounded mt-3"
             style={{ height: '300px', objectFit: 'cover' }}
@@ -59,7 +61,7 @@ function Natural() {
 
       {/* Bottom Image with Overlay */}
       <div className="mt-5 position-relative">
-        <img
+        <img data-aos="flip-left"
           src="https://images3.alphacoders.com/840/840607.jpg"
           alt="Bottom"
           className="w-100 rounded"
@@ -79,15 +81,15 @@ function Natural() {
           }}
         >
           <h5 className="fw-bold">Our Highlights</h5>
-          <ul className="small mb-0">
-            <li> Fully Built-up Houses</li>
-            <li> Freehold Land with Clear Titles</li>
-            <li> Uninterrupted Electricity & Water Supply</li>
-            <li> Ample Parking Space</li>
-            <li> Round-the-Clock Security</li>
-            <li> Internal Telephone Exchange</li>
-            <li> Cable TV Access</li>
-            <li>Recreation Club with Children's Play Area, Billiards, Table Tennis, Card Room & Health Club</li>
+          <ul className="small mb-0" >
+            <li data-aos="fade-up"> Fully Built-up Houses</li>
+            <li data-aos="fade-down"> Freehold Land with Clear Titles</li>
+            <li  data-aos="fade-up"> Uninterrupted Electricity & Water Supply</li>
+            <li  data-aos="fade-down"> Ample Parking Space</li>
+            <li  data-aos="fade-up"> Round-the-Clock Security</li>
+            <li data-aos="fade-down"> Internal Telephone Exchange</li>
+            <li data-aos="fade-up"> Cable TV Access</li>
+            <li data-aos="fade-down">Recreation Club with Children's Play Area, Billiards, Table Tennis, Card Room & Health Club</li>
           </ul>
         </div>
       </div>

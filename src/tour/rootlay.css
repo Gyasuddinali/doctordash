@@ -64,9 +64,9 @@ body {
 .section-title::after {
   content: '';
   display: block;
-  width: 60px;
+  width: 80px;
   height: 4px;
-  background-color: #007bff;
+  background-color: #e7416b;
   margin-top: 8px;
 }
 

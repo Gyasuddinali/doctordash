@@ -3,13 +3,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-
+// import './Attractions.css'
 function Attractions() {
   const attractions = [
-    { name: "Koshi", distance: "7 km", image: "https://s3.envato.com/files/c8a50d08-c1d7-47a3-a821-2f1f8d0ff030/inline_image_preview.jpg" },
+        { name: "Adventure", distance: "8 km", image: "https://tse1.mm.bing.net/th/id/OIP.edTGeHXkc6CeGz0FQ6hLaAHaE7?w=1280&h=853&rs=1&pid=ImgDetMain&o=7&rm=3" },
+
+    // { name: "Koshi", distance: "7 km", image: "https://s3.envato.com/files/c8a50d08-c1d7-47a3-a821-2f1f8d0ff030/inline_image_preview.jpg" },
     { name: "Trekking Trail", distance: "18 km", image: "https://www.andbeyond.com/wp-content/uploads/sites/5/trekking-annapurnas-nepal.jpg" },
-    { name: "Char Dham Temple", distance: "10 km", image: "https://www.templeduniya.com/wp-content/uploads/elementor/thumbs/kedarnath-temple-q9mr4xuzs09smdv41k7ug2ri3fezii51ezed2yv98o.jpg" },
-    { name: "Adventure", distance: "8 km", image: "https://tse1.mm.bing.net/th/id/OIP.edTGeHXkc6CeGz0FQ6hLaAHaE7?w=1280&h=853&rs=1&pid=ImgDetMain&o=7&rm=3" },
+    // { name: "Char Dham Temple", distance: "10 km", image: "https://www.templeduniya.com/wp-content/uploads/elementor/thumbs/kedarnath-temple-q9mr4xuzs09smdv41k7ug2ri3fezii51ezed2yv98o.jpg" },
   ];
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from './image/logo.jpeg'; 
-
+import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
     <div>
@@ -8,7 +8,7 @@ export default function NavBar() {
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="/"> <img src={logo} alt="the visionry promotor Logo" style={{ maxWidth: '40px' }} />
-       PRADISE CLIFF </a>
+       PARADISE CLIFF </a>
         <button
   className="navbar-toggler"
   type="button"
@@ -40,13 +40,18 @@ export default function NavBar() {
             </li>  */}
           
             <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
+              {/* <a className="nav-link" href="/">Home</a> */}
+              <Link className="nav-item text-white nav-link" to='/'>Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">About</a>
+              {/* <a className="nav-link" href="/about">About</a> */}
+                         <Link className="nav-item text-white nav-link" to='/about'>About</Link>
+
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">Contact</a>
+              {/* <a className="nav-link" href="/contact">Contact</a> */}
+              <Link className="nav-item text-white nav-link" to='/contact'>Contact</Link>
+
             </li>
           </ul>
         </div>

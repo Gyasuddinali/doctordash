@@ -23,7 +23,7 @@ export default function About() {
               </div> */}
             </div>
             <div className="col-lg-6">
-              <h2 className="section-title pt-5" style={{color:'#d4af37'}}>About The Visionary Promoters</h2>
+              <h2 className="section-title pt-5" style={{color:'#d4af37'}}>About Paradise Cliff</h2>
               <p className="lead text-dark">
 AMAFHH Hotels & Resorts Pvt. Ltd. - one of the pioneering companies to introduce the concept of life amidst nature is a well known name in the field of real estate development in the Himalayan hills.
 AMAFHH has already to its credit the success of its previously promoted projects that have not just provided material properties to its clients but has also built a life long association with them. AMAFHH prides it self for its expertises and experience of transforming dreams into realities. The joy and happiness of its satisfied customers
@@ -47,7 +47,6 @@ AMAFHH has already to its credit the success of its previously promoted projects
           </div>
         </div>
       </section>
-
 
     </div>
   )

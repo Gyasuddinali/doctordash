@@ -396,10 +396,10 @@
 }
 
 /* Contact Section */
-.contact-section {
+/* .contact-section {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: white;
-}
+} */
 
 .contact-section .section-title {
   color: white;
@@ -426,7 +426,9 @@
 }
 
 .contact-form {
-  background: rgba(255, 255, 255, 0.1);
+  /* background: rgba(255, 255, 255, 0.1); */
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+
   padding: 2rem;
   border-radius: 15px;
   backdrop-filter: blur(10px);

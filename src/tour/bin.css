@@ -1,0 +1,113 @@
+Container and typography
+.container {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Heading */
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+/* Grid row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Column styling for responsiveness */
+.col-12 {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .col-md-6 {
+    width: 48%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-3 {
+    width: 23%;
+  }
+}
+
+/* Card container */
+.image-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Animate visible items */
+.image-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Image styling */
+.image-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Card body */
+.card-body {
+  padding: 15px 12px;
+  flex-grow: 1;
+}
+
+/* Title */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: #34495e;
+}
+
+/* Description - optional, if you add it */
+.card-description {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+/* Load More button */
+.load-more-btn {
+  display: block;
+  margin: 40px auto 20px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-btn:hover {
+  background-color: #1f618d;
+}
+
+/* Responsive spacing on small devices */
+@media (max-width: 575px) {
+  .image-card img {
+    height: 160px;
+  }
+}
+

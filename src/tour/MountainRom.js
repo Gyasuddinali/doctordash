@@ -1,10 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Mystry from './destination/Almora Mystry and Beauti.jpeg'
+import himalay from './destination/Hidden Gem Of Himalaya.jpeg'
 function MountainRom() {
   return (
     <div className="container mt-5" id="almora">
-      <h1 className="fst-italic text-success rounded-pill ps-5 border border-warning text-center text-md-start">
+      <h1 className=" section-title fst-italic text-success text-center" style={{fontFamily:'cursive'}}>
         ALMORA
       </h1>
 
@@ -12,19 +13,19 @@ function MountainRom() {
         {/* Left: 3 Images */}
         <div className="col-lg-6 col-md-12 mb-4">
           <div className="d-flex flex-column gap-3">
-            <img
-              src="https://tse1.mm.bing.net/th/id/OIP.sbDEJPxUOU0onhHqo-_jOAHaE8?w=626&h=418&rs=1&pid=ImgDetMain&o=7&rm=3"
+            <img data-aos="flip-up"
+            src={Mystry}
               alt="Image 1"
               className="img-fluid rounded"
               style={{ objectFit: 'cover', maxHeight: '180px' }}
             />
-            <img
-              src="https://i.pinimg.com/originals/0f/68/01/0f6801791a84b53db979c72404adf5b8.png"
-              alt="Image 2"
+            <img data-aos="fade-down"
+             src={himalay}
+alt="Image 2"
               className="img-fluid rounded"
               style={{ objectFit: 'cover', maxHeight: '180px' }}
             />
-            <img
+            <img data-aos="flip-right"
               src="https://th.bing.com/th/id/R.185a4025b2426d2bdb69aac4c2a9e1fe?rik=dFrCXif7Gi87Hw&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f02%2f6966828-beautiful-mountain-lakes.jpg&ehk=%2bg%2bVQ5VbliISAtOpOXMF0kQcE9UuTuxx58zhi69EO4k%3d&risl=&pid=ImgRaw&r=0"
               alt="Image 3"
               className="img-fluid rounded"
@@ -35,15 +36,18 @@ function MountainRom() {
 
         {/* Right: Text & Image */}
         <div className="col-lg-6 col-md-12">
-          <h2 className="bg-success text-white text-center rounded p-2 mb-3">
+          <h2 className="bg-success text-white text-center rounded p-2 mb-3" style={{fontFamily:'cursive'}}>
             Romance of the Mountains
           </h2>
           <p className="text-justify">
-            Perched between the hills in the heart of the Kumaon range lies Almora — a 5400 ft high scenic town offering a unique blend of breathtaking natural beauty and modern convenience.
-            Known as the "Switzerland of India", Almora is famed for its timeless culture, lush forests, valleys, lakes, and rivers.
-            Paradise Cliff, at the highest point in Almora, offers a peaceful life surrounded by nature while staying close to all essential amenities.
+          Hovering between the hills in the heart of the Kumaon range lies Almora — a 
+5400 ft high scenic town offering a unique blend of breathtaking natural 
+beauty and modern convenience. Known as the <strong className='text-primary'>"Switzerland of India"</strong>, 
+Almora is famed for its timeless culture, lush forests, valleys, lakes, and 
+rivers. Paradise Cliff, at the highest point in Almora, offers a peaceful life 
+surrounded by nature while staying close to all essential amenities.
           </p>
-          <img
+          <img data-aos="fade-up"
             src="https://images.pexels.com/photos/247478/pexels-photo-247478.jpeg?cs=srgb&dl=dawn-landscape-mountains-247478.jpg&fm=jpg"
             alt="Mountain View"
             className="img-fluid rounded w-100 mt-3"
@@ -79,7 +83,7 @@ function MountainRom() {
           }}
         >
           <h5 className="fw-bold"> Our Highlights</h5>
-          <ul className="small mb-0">
+          <ul className="small mb-0" >
             <li>5400 ft above sea level</li>
             <li>345 km from Delhi</li>
             <li>Nearby: Nainital, Ranikhet, Kausani, Binsar, Shitlakhet, Mukteshwar</li>

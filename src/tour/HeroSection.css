@@ -53,7 +53,7 @@
 
 
 .hero-section {
-  background-image: url('https://th.bing.com/th/id/R.f7530fdef06d86245c8cd739f2a5cf76?rik=EUjOSc4UjUYVCQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fMountain-wallpaper-HD-pictures-images-photos.jpg&ehk=vq8nbZerNFD2C1EvsPq8%2fibw03iCbvqKJ%2bMAVqR4YRk%3d&risl=&pid=ImgRaw&r=0');
+  background-image: url('./destination/Landscape.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
