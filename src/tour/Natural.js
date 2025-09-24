@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import xyz from './destination/She Shed 2.jpg'
 import meditation from './destination/Meditation Room.jpg'
 import rowCottage from './destination/Row Cotteges.jpg'
 import meetingroom from './destination/seminar-meeting-room_105762-1708.avif'
@@ -18,7 +19,8 @@ function Natural() {
         <div className="col-lg-6 col-md-12 mb-4">
           <div className="d-flex flex-column gap-3">
             <img data-aos="fade-up"
-              src="https://i.pinimg.com/originals/b7/47/ed/b747edb6369af405dfb3441f0b18aab2.jpg"
+            src={rowCottage}
+              // src="https://i.pinimg.com/originals/b7/47/ed/b747edb6369af405dfb3441f0b18aab2.jpg"
               alt="Image 1"
               className="img-fluid rounded"
               style={{ maxHeight: '180px', objectFit: 'cover' }}
@@ -30,7 +32,7 @@ function Natural() {
               style={{ maxHeight: '180px', objectFit: 'cover' }}
             />
             <img data-aos="flip-up"
-               src={rowCottage}
+               src={xyz}
                alt="Image 3"
               className="img-fluid rounded"
               style={{ maxHeight: '180px', objectFit: 'cover' }}

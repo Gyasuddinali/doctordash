@@ -79,7 +79,7 @@ nights are a canvas of countless stars.           </p>
           }}
         />
 
-        <div
+        {/* <div
           className="position-absolute text-white p-3 p-sm-4"
           style={{
             top: '50%',
@@ -101,7 +101,7 @@ nights are a canvas of countless stars.           </p>
             <li>Home to Kasardevi temple, surrounded by dense oak forests</li>
             <li>Excellent public transport to and from Almora</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );
