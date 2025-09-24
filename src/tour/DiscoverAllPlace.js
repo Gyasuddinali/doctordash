@@ -42,7 +42,7 @@ const DiscoverAllPlace = () => {
     },
     {
       src:rowCottage,
-     title: "Row Cotteges",
+     title: "Cotteges",
     //   description: "Discover new destinations.",
     },
 

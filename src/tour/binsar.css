@@ -103,7 +103,9 @@ body {
 }
 
 .gallery-section {
-  background: linear-gradient(145deg, #ffffff, #f1f9ff);
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+
+  /* background: linear-gradient(145deg, #ffffff, #f1f9ff); */
   padding: 20px 0;
 }
 
