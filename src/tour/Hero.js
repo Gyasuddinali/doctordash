@@ -111,10 +111,9 @@ import img2 from './destination/Meditation Room.jpg';
 import img3 from './destination/Himalaya From Almora.jpeg';
 import img4 from './destination/Hidden Gem Of Himalaya.jpeg';
 import img5 from './destination/Landscape.jpg';
-import img6 from './destination/Row Cotteges.jpg';
 const HeroSection = () => {
   const images = [
-    img1, img2, img3, img4,img5,img6
+    img1, img2, img3, img4,img5
   ];
 // src/components/HeroSection.jsx
 
@@ -124,7 +123,7 @@ const HeroSection = () => {
       <Swiper
         modules={[Autoplay, EffectFade, Pagination]}
         effect="fade"
-        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        autoplay={{ delay: 1000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         loop={true}
         className="hero-swiper"

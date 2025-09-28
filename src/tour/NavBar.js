@@ -5,12 +5,13 @@ export default function NavBar() {
   return (
     <div>
 
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor:'#018181ff'}}>
       <div className="container">
         <a className="navbar-brand" href="/"> <img src={logo} alt="the visionry promotor Logo" style={{ maxWidth: '40px' }} />
        PARADISE CLIFF </a>
         <button
-  className="navbar-toggler"
+  className="navbar-toggler bg-primary"
+  style={{color:'white'}}
   type="button"
   data-bs-toggle="collapse"
   data-bs-target="#navbarNav"
@@ -18,10 +19,10 @@ export default function NavBar() {
   aria-expanded="false"
   aria-label="Toggle navigation"
 >
-  <span className="navbar-toggler-icon"></span>
+  <span className="navbar-toggler-icon" ></span>
 </button>
 
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse"   id="navbarNav">
           <ul className="navbar-nav ms-auto">
             {/* <li className="nav-item">
               <a className="nav-link" href="#profile">Profile</a>

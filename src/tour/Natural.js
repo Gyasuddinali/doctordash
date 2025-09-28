@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import xyz from './destination/She Shed 2.jpg'
 import meditation from './destination/Meditation Room.jpg'
 import rowCottage from './destination/Row Cotteges.jpg'

@@ -12,17 +12,6 @@ function Highlights() {
     "Perfect Location –  Far from the chaos, close to amenities",
   ];
 
-
-//   const highlights=[
-// "Highest hill of Almorah — 6500 ft. above sea level", 
-//  "Just 6 km from Almorah town",
-//  "Uninterrupted views of Nandadevi, Trishul, and Panchachuli", 
-//  "Away from the chaos of cities yet close to modern amenities",
-//  "Inhabited by Buddhist monks, popular for long stays" ,
-//  "Home to Kasardevi temple, surrounded by dense oak forests", 
-// "Excellent public transport to and from Almora" ,
-
-//   ]
   return (
     <section className="highlights-section">
       <div className="container">
@@ -31,6 +20,11 @@ function Highlights() {
           {highlights.map((hl, idx) => (
             <div key={idx} className="col">
               <div className="icon">✓</div>
+              {/* <img
+            src={hl}
+            alt="Highlight"
+            className="img-fluid rounded shadow"
+          /> */}
               <p id="p1">{hl}</p>
             </div>
           ))}

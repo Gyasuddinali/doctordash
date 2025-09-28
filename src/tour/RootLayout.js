@@ -192,12 +192,12 @@ function RootLayout() {
 {/* <Bin/> */}
 <Welcome/>
 <DiscoverAllPlace/>
-
+<Natural></Natural>
 <Himalay></Himalay>
 <MountainRom></MountainRom>
 <BinsarNew/>
 <AboutSection></AboutSection>
-<Natural></Natural>
+
       {/* <IdealFor /> */}
       <Attractions />
       <Highlights />

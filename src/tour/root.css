@@ -150,7 +150,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background: var(--primary-color);
+  background-color:#018181ff;
 }
 
 .section-subtitle {

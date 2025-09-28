@@ -5,7 +5,7 @@ function Welcome() {
     <section className="welcome-page container py-3">
       <div className="text mb-3">
         {/* <h1 className="display-5 p-2 fw-bold">Escape to Tranquility</h1> */}
-        <h2 className="text-uppercase mt-3"  data-aos="zoom-in"  style={{color:'green'}}>Welcome to</h2>
+        <h2 className="text-uppercase mt-3"  data-aos="zoom-in"  style={{color:'#018181ff'}}>Welcome to</h2>
         <h1 className="mb-4 fw-bold " data-aos="fade-down" style={{color:'goldenrod'}} data-aos-easing="ease-out-cubic" data-aos-duration="2000">PARADISE CLIFF, THE NATURAL 
 RETREAT, KASAR DEVI ALMORAH </h1>
       </div>
